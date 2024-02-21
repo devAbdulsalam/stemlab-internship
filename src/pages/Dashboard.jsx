@@ -110,10 +110,10 @@ const Dashboard = () => {
 								</svg>
 							</Link>
 							<Link
-								to={'/my-quiz'}
+								to={'/notification'}
 								className="inline-flex items-center justify-center py-3 hover:text-gray-400 hover:bg-gray-700 focus:text-gray-400 focus:bg-gray-700 rounded-lg"
 							>
-								<span className="sr-only">Messages</span>
+								<span className="sr-only">Notifications</span>
 								<svg
 									aria-hidden="true"
 									fill="none"

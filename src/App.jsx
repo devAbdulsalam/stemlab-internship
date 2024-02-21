@@ -8,6 +8,7 @@ import MyQuiz from './pages/MyQuiz';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import ProtectedRoutes from './hooks/ProtectedRoutes';
+import Notification from './pages/Notification';
 
 export default function App() {
 	return (
@@ -20,6 +21,7 @@ export default function App() {
 					<Route exact path="/dashboard" element={<Dashboard />} />
 					<Route path="/my-quiz/:id" element={<Quiz />} />
 					<Route path="/my-quiz" element={<MyQuiz />} />
+					<Route path="/notification" element={<Notification />} />
 				</Route>
 			</Route>
 			<Route path="*" element={<NotFound />} />
