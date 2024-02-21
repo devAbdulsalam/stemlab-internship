@@ -53,8 +53,8 @@ const Dashboard = () => {
 		<>
 			<div className="flex bg-gray-100 min-h-screen">
 				<aside className="hidden sm:flex sm:flex-col">
-					<a
-						href="#"
+					<Link
+						to={'/'}
 						className="inline-flex items-center justify-center h-20 w-20 bg-purple-600 hover:bg-purple-500 focus:bg-purple-500"
 					>
 						<svg fill="none" viewBox="0 0 64 64" className="h-12 w-12">
@@ -64,7 +64,7 @@ const Dashboard = () => {
 								fill="#fff"
 							/>
 						</svg>
-					</a>
+					</Link>
 					<div className="flex-grow flex flex-col justify-between text-gray-500 bg-gray-800">
 						<nav className="flex flex-col mx-4 my-6 space-y-4">
 							<Link
