@@ -69,8 +69,7 @@ npm install
 
 7. For Environment variables, we have provided some default values in the `ENV` to reduce the burden, but some parameters are mandatory:
 
-   - `PORT`: Do not change the value, let it be set to 8080.
-   - `VITE_API_URL`: Provide frontend api url.
+   - `VITE_API_URL`: Provide backend api url.
    -
 
 8. Run the project:
