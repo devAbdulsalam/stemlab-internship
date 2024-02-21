@@ -159,13 +159,12 @@ const Login = () => {
 									</div>
 									<div className="px-4 pb-2 pt-4">
 										<button
-											// type="submit"
 											className="uppercase w-full p-4 text-lg rounded-full bg-primary hover:bg-indigo-600 focus:outline-none"
 										>
 											sign in
 										</button>
 									</div>
-									<div className="p-4 debug text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
+									<div className="p-4 text-black text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
 										<a href="#">
 											<svg
 												fill="#fff"
