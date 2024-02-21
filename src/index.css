@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gem {
+	background: linear-gradient(
+		262.3deg,
+		rgba(19, 254, 142, 0.4),
+		rgba(63, 130, 98, 0) 100%,
+		rgba(63, 130, 98, 0) 0
+	);
+	/* linear-gradient(0deg, #064e3d, #190357); */
+}
+
+.gem:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-repeat: repeat;
+	content: '';
+	background-image: url(./assets/whiteNoise.png);
+	background-size: 200px;
+}
+.bgImage {
+	background-image: url(./assets/07.jpg);
+}
+.debug {
+	border: 1px red solid;
+}
+.techbg {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.9),
+			rgba(255, 255, 255, 0.9)
+		),
+		url('./assets/techbg.svg');
+}
